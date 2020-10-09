@@ -46,4 +46,8 @@ public class Alumno {
     public void setClave(int clave) {
         this.clave = clave;
     }
+
+    public void printAlumno(){
+        System.out.println(firstName+ " "+lastName+" " + birthday+ " "+ clave);
+    }
 }
